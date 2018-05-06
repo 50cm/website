@@ -29,6 +29,10 @@ export default {
   font-family: 'Makinas';
   src: url('./assets/Makinas-Scrap-5.otf') format('opentype');
 }
+@font-face {
+  font-family: 'C50cm-Number';
+  src: url('./assets/C50cm-Regular.otf') format('opentype');
+}
 html, body {
   margin: 0;
   font-family: 'Makinas';

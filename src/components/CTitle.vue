@@ -1,5 +1,5 @@
 <template>
-  <h1>{{count}}cm 革命計画</h1>
+  <h1><span>{{count}}cm</span> 革命計画</h1>
 </template>
 
 <script>
@@ -28,5 +28,8 @@ h1 {
   margin: 0;
   color: white;
   font-size: 5vw;
+}
+span {
+  font-family: 'C50cm-Number';
 }
 </style>

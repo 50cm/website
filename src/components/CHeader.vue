@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h2>学生が、世界を変える</h2>
+    <h2>学生が、世界を変える。</h2>
     <c-title />
   </header>
 </template>
