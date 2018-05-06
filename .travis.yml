@@ -4,9 +4,11 @@ node_js:
 branches:
   only:
     - master
-script: npm run generate
+script: npm run build
 after_success:
   - git checkout -b deploy
+  - rm .gitignore
+  - mv .gitignore-prod .gitignore
   - git remote add 50cm $REMOTE
   - git config user.name shundroid
   - git config user.email shundroidk@gmail.com
