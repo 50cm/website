@@ -1,5 +1,5 @@
 <template>
-  <h1>{{count}}cm</h1>
+  <h1>{{count}}cm 革命計画</h1>
 </template>
 
 <script>
