@@ -4,7 +4,7 @@ node_js:
 branches:
   only:
     - master
-script: generate
+script: npm run generate
 after_success:
   - git remote add 50cm $REMOTE
   - git config user.name shundroid
