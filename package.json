@@ -6,7 +6,8 @@
     "version": "3.7.1"
   },
   "scripts": {
-    "server": "hexo server"
+    "server": "hexo server",
+    "generate": "hexo clean ; hexo generate"
   },
   "dependencies": {
     "hexo": "^3.2.0",
