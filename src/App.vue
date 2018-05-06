@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import CHeader from './Components/CHeader'
+import CHeader from './components/CHeader'
 
 export default {
   name: 'App',

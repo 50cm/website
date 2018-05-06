@@ -4,16 +4,16 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       count: 0
     }
   },
-  mounted() {
+  mounted () {
     this.increment()
   },
   methods: {
-    increment() {
+    increment () {
       this.count++
       if (this.count < 50) {
         setTimeout(this.increment, 20)
