@@ -6,9 +6,10 @@ branches:
     - master
 script: npm run generate
 after_success:
+  - git checkout -b deploy
   - git remote add 50cm $REMOTE
   - git config user.name shundroid
   - git config user.email shundroidk@gmail.com
   - git add .
   - git commit -m "generated"
-  - git push -f 50cm master:site
+  - git push -f 50cm deploy:site
